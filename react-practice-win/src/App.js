@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+
+const x = 5
+let text = 'Goodbye'
+
+if(x < 10){
+  text = 'Hello Sanjib'
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>React is {5+5} times better than Javascript</p>
+      {/* <p>{x < 10 ? 'Hello Sanjib' : 'Goodbye'}</p> */} {/* using ternary operator */}
+      <p>{text}</p>  {/* using if statement */}
     </div>
-  );
+  )
 }
 
 export default App;
