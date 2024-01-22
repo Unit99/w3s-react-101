@@ -7,6 +7,7 @@ import MyForm from './Form';
 import Timer from './Useeffect';
 import Counter from './Counter';
 import CleanEffect from './CleanEffect';
+import MultipleFld from './Multiplefld';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
     <Timer />
     <Counter />
     <CleanEffect />
+    <MultipleFld />
   </React.StrictMode>
 );
 
