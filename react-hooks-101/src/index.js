@@ -8,6 +8,7 @@ import Timer from './Useeffect';
 import Counter from './Counter';
 import CleanEffect from './CleanEffect';
 import MultipleFld from './Multiplefld';
+import Memo from './reactmemo/Memo';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
     <Counter />
     <CleanEffect />
     <MultipleFld />
+    <Memo />
   </React.StrictMode>
 );
 

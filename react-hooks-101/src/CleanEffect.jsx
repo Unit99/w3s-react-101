@@ -6,7 +6,7 @@ function CleanEffect(){
 
     useEffect(()=>{
         let timer = setTimeout(
-            ()=>{setCount(c => c + 1)}, 1000
+            ()=>setCount(c => c + 1), 1000
         )
 
         return ()=>{ 
