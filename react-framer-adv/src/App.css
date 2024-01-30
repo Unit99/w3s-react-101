@@ -57,3 +57,7 @@ button{
   border: none;
   cursor: pointer;
 }
+
+h2.sub-header{
+  color: #000;
+}

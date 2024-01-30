@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body{
+    background-color: crimson;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 10rem;
+    color: #000;
+}
+
+.cursor{
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-radius: 100%;
+    background: #000;
+    pointer-events: none;
+}
