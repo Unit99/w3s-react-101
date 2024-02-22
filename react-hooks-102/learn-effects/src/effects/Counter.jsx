@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import CleanEffect from './CleanEffect'
 import { UseRef } from './UseRef'
+import { UseRef2 } from './UseRef2'
 
 export default function Counter(){
     const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ export default function Counter(){
             <button type='button' onClick = {()=>setCount((c) => c + 1)}> + </button> <br />
             <p>Calculation: {calc}</p>
             <CleanEffect />
-            <UseRef />
+            <UseRef/>
+            <UseRef2/>
         </section>
     )
 }
